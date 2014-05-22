@@ -3,7 +3,7 @@ index1 <- with(ranking, grepl("",  G1RR))   ##  with(ranking, grepl("101to200", 
 index2 <- with(ranking, grepl("AustraliaGo8", G7CT))          ##  with(ranking, grepl("UKRussell", G7CT))
 # index3 <- with(ranking, grepl("", Institution))
 #  ranking$Institution
-# [1]               FranceBest10  CanadaG10     AustraliaGo8  ChinaC9       GermanyEliteU ItalyBest10  
+# [1] FranceBest10  CanadaG10     AustraliaGo8  ChinaC9 GermanyEliteU ItalyBest10  
 # [8] JapanN7TIT    UKRussell     USAAU        
 haha <- "AustraliaGo8"
 file.name <- paste(haha, "group.csv")
